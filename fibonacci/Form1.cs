@@ -13,7 +13,7 @@ namespace fibonacci
             int tal2 = 0;
             int tal3 = 0;
 
-            textBox1.Text = "0 1 ";
+            textBox1.Text = "0";
             for (int i = 0; i <= 30; i++)
             {
                 tal3 = tal1 + tal2;
