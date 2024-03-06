@@ -19,7 +19,7 @@ namespace fibonacci
                 tal3 = tal1 + tal2;
                 tal1 = tal2;
                 tal2 = tal3;
-                textBox1.Text = textBox1.Text + " " + tal3.ToString();
+                textBox1.Text = textBox1.Text + tal3.ToString();
             }
         }
     }
